@@ -1,0 +1,65 @@
+/* CSS Reset  */
+
+.hero {
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: space-evenly; */
+    background-color: lightblue;
+    padding: 10px;
+    height: 70vh;
+    /* align-items: center; */
+    /* justify-content: center; */
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.item {
+    background-color: pink;
+    margin: 5px;
+}
+
+.box1 {
+    flex-shrink: 2;
+}
+
+.box2 {
+    flex-shrink: 1;
+}
+
+.box3 {
+    flex-shrink: 3;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    
+}
+
+.boxy1 {
+    background-color: purple;
+    position: relative;
+    left: 20px;
+    top: 50px;
+}
+
+.boxy2 {
+    background-color: red;
+}
+
+.boxy3 {
+    background-color: green;
+    position: absolute;
+    left: 30px;
+    top: 0px;
+}
+
+.boxy4 {
+    background-color: blue;
+}
+
+.container {
+    border: 2px solid black;
+    position: relative;
+}
