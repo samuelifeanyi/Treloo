@@ -117,12 +117,12 @@ header {
 
 .top-offers-tabs {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     background-color: white;
     border-radius: 8px;
     padding: 10px;
     margin-bottom: 40px;
-    box-shadow: 0 4px 15px rgba (0, 0, 0, 0.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -201,7 +201,7 @@ header {
 }
 
 .tag-relax {
-background-color: #FCDDEC;
+    background-color: #FCDDEC;
 }
 
 .tag-adventure {
@@ -232,9 +232,9 @@ background-color: #FCDDEC;
     font-weight: 700;
     color: black;
 }
-    
 
-.price > span {
+
+.price>span {
     font-size: 16px;
     font-weight: 400;
     color: #8895A7;
@@ -258,9 +258,10 @@ background-color: #FCDDEC;
     margin: 100px 0;
 }
 
-.travel-section > .container {
+.travel-section>.container {
     display: flex;
     flex-wrap: wrap;
+    background-color: #f4f7f9;
 }
 
 .text-column {
@@ -287,11 +288,11 @@ background-color: #FCDDEC;
 }
 
 .contact-btn {
-   display: inline-block;
-   background-color: #007bff;
-   color: white;
-   padding: 15px 30px;
-   border-radius: 8px;
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
 }
@@ -325,7 +326,7 @@ background-color: #FCDDEC;
 
 
 .top-right {
-    top: 20px;
+    top: 70px;
     right: -50px;
 }
 
@@ -336,6 +337,6 @@ background-color: #FCDDEC;
 }
 
 .bottom-right {
-    bottom: 20px;
+    bottom: 140px;
     right: -30px;
 }
