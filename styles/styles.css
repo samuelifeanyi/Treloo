@@ -257,22 +257,23 @@ header {
     background-color: #e1e9fa;
 }
 
+/* Travel Section Styles  */
 .travel-section {
-    margin: 100px auto;
-    max-width: 1200px;
+    margin: 100px 0;
+    /* max-width: 1200px; */
 }
 
 .travel-section>.container {
     display: flex;
-    flex-wrap: wrap;
-    /* background-color: #f4f7f9; */
+    /* flex-wrap: wrap; */
+    background-color: #f4f7f9;
     align-items: center;
     padding: 0 50px;
 }
 
 .text-column {
-    padding: 60px;
-    flex: 1;
+    padding-left: 60px;
+    /* flex: 1; */
 }
 
 .travel-image-column {
@@ -316,7 +317,7 @@ header {
     background-color: white;
     border-radius: 15px;
     padding: 15px 25px;
-    box-shadow: 0 4px 15px rgba (0, 0, 0, 0.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -366,14 +367,16 @@ header {
 
 .destination-section h2 {
     font-size: 48px;
+    font-weight: 700;
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .category-tabs {
     display: flex;
     justify-content: center;
     gap: 20px;
-    margin: 40px;
+    margin-bottom: 40px;
 }
 
 .tab-button {
@@ -409,7 +412,7 @@ header {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     padding: 10px;
-    cursor: pointer;
+    /* cursor: pointer; */
     position: relative;
 }
 
@@ -423,6 +426,7 @@ header {
     border-radius: 20px;
     height: 200px;
     margin-bottom: 15px;
+    /* border: 1px solid red; */
 }
 
 .card-image-wrapper>img {
@@ -452,7 +456,7 @@ header {
 
 .fa-star {
     color: gold;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .card-image-wrapper span {
@@ -470,7 +474,10 @@ header {
     color: #00000080;
 }
 
-.testimonial-section {}
+.testimonial-section {
+    display: flex;
+    justify-content: center;
+}
 
 .container {
     max-width: 1200px;
@@ -484,6 +491,7 @@ header {
     gap: 30px;
     justify-content: center;
     margin-bottom: 50px;
+    /* border: 1px solid red; */
 }
 
 .testimonial-card {
@@ -495,18 +503,18 @@ header {
     height: 350px;
 }
 
-.quote-icon {
-    font-size: 400px;
+.quote-icon > img {
+    font-size: 40020px;
     color: #dcdcdf;
     margin-bottom: 20px;
     position: absolute;
-    top: -50px;
+    top: 5px;
     z-index: 0;
     left: 40%;
 }
 
 .testimonial-text {
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
     margin-bottom: 20px;
     position: relative;
@@ -559,4 +567,42 @@ header {
     bottom: -40px;
     left: 35%;
     background-color: white;
+}
+
+.next {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.discount-banner-section {
+    background-image: url(../images/DontMiss.png);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    border-radius: 100px;
+    position: relative;
+    margin-top: 100px;
+}
+
+
+.discount-banner h2 {
+    display: flex;
+    text-align: center;
+    border: 1px solid red;
+    max-width: 800px;
+    margin: 120px auto 0;
+    color: white;
+    font-size: 48px;
+}
+
+
+.register-button {
+    text-decoration: none;
+    background-color: white;
+    color: #3E86F5;
+    padding: 20px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: 500;
 }
