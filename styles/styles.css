@@ -9,6 +9,7 @@
 body {
     font-family: 'Poppins', 'Roboto', sans-serif;
     background-color: #f4f7f9;
+    flex-wrap: wrap;
 }
 
 
@@ -27,6 +28,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .logo>a {
