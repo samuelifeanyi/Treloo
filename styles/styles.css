@@ -89,16 +89,78 @@ header {
 }
 
 /* Booking Section Styles */
-/* .booking-container { */
-/* border: 1px solid blue;
+.booking-container {
+    /* border: 1px solid blue;
     max-width: 1100px;
     position: absolute;
     width: 80%;
     left: 50%; */
-/* } */
+    background-color: #ffffff;
+    border-radius: 20px;
+}
 
+.booking-form {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
 
+.location-section {
+    border: 1px solid #ccc;
+    padding-right: 20px;
+    margin-right: 20px;
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+}
 
+.date-section {
+    border: 1px solid #ccc;
+    padding-right: 20px;
+    margin-right: 20px;
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+}
+
+.bold-text {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.form-group label {
+    font-size: 18px;
+    color: #00000080;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon-container {
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+}
+
+.search-btn {
+    background-color: #3E86F5CC;
+    color: #fff;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
 
 
 /* Special Offers Styles  */
@@ -503,7 +565,7 @@ header {
     height: 270px;
 }
 
-.quote-icon > img {
+.quote-icon>img {
     font-size: 400px;
     color: #dcdcdf;
     margin-bottom: 20px;
@@ -627,6 +689,7 @@ header {
 
 .footer-nav ul li {
     list-style: none;
+
 }
 
 .footer.nav ul li a {
